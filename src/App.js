@@ -1,5 +1,6 @@
 import './App.css';
 import AddNumbers from "./components/AddNumbers";
+import Counter from "./components/Counter";
 import DataBinding from "./components/DataBinding";
 import DisableButton from "./components/DisableButton";
 import ShowHide from "./components/ShowHide";
@@ -16,6 +17,7 @@ function App() {
       <DataBinding />
       <DisableButton />
       <AddNumbers />
+      <Counter />
     </div>
   );
 }
