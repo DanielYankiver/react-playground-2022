@@ -3,6 +3,7 @@ import AddNumbers from "./components/AddNumbers";
 import Counter from "./components/Counter";
 import DataBinding from "./components/DataBinding";
 import DisableButton from "./components/DisableButton";
+import FetchData from "./components/FetchData";
 import ShowHide from "./components/ShowHide";
 import Users from "./components/Users";
 
@@ -18,6 +19,7 @@ function App() {
       <DisableButton />
       <AddNumbers />
       <Counter />
+      <FetchData />
     </div>
   );
 }
