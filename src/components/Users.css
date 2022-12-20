@@ -1,0 +1,8 @@
+.users {
+  display: flex;
+  justify-content: center;
+}
+
+.user {
+  margin-left: 5px;
+}
