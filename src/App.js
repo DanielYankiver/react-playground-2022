@@ -1,5 +1,7 @@
 import './App.css';
+import AddNumbers from "./components/AddNumbers";
 import DataBinding from "./components/DataBinding";
+import DisableButton from "./components/DisableButton";
 import ShowHide from "./components/ShowHide";
 import Users from "./components/Users";
 
@@ -12,7 +14,8 @@ function App() {
       <Users />
       <ShowHide />
       <DataBinding />
-
+      <DisableButton />
+      <AddNumbers />
     </div>
   );
 }
